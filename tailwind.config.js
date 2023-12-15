@@ -7,11 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        'saint': ['Mrs Saint Delafield', 'cursive'],
       },
+      backgroundImage: {
+        'food-menu': "url('/src/app/assets/images/food-menu.jpg')",
+      }
     },
   },
   plugins: [],

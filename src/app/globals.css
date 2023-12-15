@@ -2,26 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  .title {
+    @apply text-3xl lg:text-4xl text-center text-[#191919] uppercase;
+  }
+  .aboveTitle {
+    @apply -mb-6 text-6xl lg:text-7xl text-center font-thin text-gray-200 italic;
+  }
+  .subtitle {
+    @apply text-4xl text-center underline underline-offset-8 text-[#191919];
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@layer components {
+  .card {
+    @apply p-2 md:max-w-[360px] md:px-6;
+  }
+
 }
