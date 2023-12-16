@@ -7,7 +7,7 @@ const SectionThree = () => {
     <>
       <section className='mb-16'>
           <section className='w-full h-auto'>
-            <div className="flex items-center w-full h-[500px] bg-[url('/food-menu.jpg')] bg-cover bg-center bg-fixed">
+            <div className="flex items-center w-full h-[500px] bg-[url('/food-menu-mobile.jpg')] md:bg-[url('/food-menu.jpg')] bg-cover bg-center bg-fixed">
               <h2 className='title w-full text-white'>Food Menu</h2>
             </div>
           </section>

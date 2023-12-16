@@ -7,7 +7,7 @@ import titleImage from '../assets/images/slide-h2-01.png'
 
 const SectionOne = () => {
   return (
-    <section className="w-full h-[700px] bg-[url('./assets/images/slide-01.jpg')] bg-cover bg-no-repeat bg-center">
+    <section className="w-full h-[700px] bg-[url('/slide-mobile-01.jpg')] md:bg-[url('/slide-01.jpg')] bg-cover bg-no-repeat bg-center">
       <div className='flex flex-col items-center justify-center w-full h-full'>
         <Image 
           className='mb-8 px-12'

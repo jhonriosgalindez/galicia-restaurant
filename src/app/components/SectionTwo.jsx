@@ -1,4 +1,4 @@
-import React, { lazy } from 'react'
+import React from 'react'
 import Image from 'next/image'
 
 import signature from '../assets/images/signature.png'
