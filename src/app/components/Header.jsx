@@ -119,10 +119,10 @@ export default function Example() {
             Menu
           </Link>
           <a href="#" className="text-lg font-semibold leading-6 text-gray-900">
-            Reservations
+            About Us
           </a>
           <a href="#" className="text-lg font-semibold leading-6 text-gray-900">
-            Features
+            Reservation
           </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -197,13 +197,13 @@ export default function Example() {
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Reservations
+                  About Us
                 </a>
                 <a
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Features
+                  Reservations
                 </a>
               </div>
               <div className="py-6">
