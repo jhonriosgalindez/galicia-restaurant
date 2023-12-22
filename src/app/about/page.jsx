@@ -13,7 +13,7 @@ import image4 from "../../../public/5.jpg";
 const page = () => {
   return (
     <div>
-      <header>
+      <header className="sticky top-0 z-10">
         <Header />
       </header>
 
