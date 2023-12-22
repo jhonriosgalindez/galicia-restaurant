@@ -118,15 +118,12 @@ export default function Example() {
           <Link href="/menu" className="text-lg font-semibold leading-6 text-gray-900">
             Menu
           </Link>
-          <a href="#" className="text-lg font-semibold leading-6 text-gray-900">
+          <a href="/about" className="text-lg font-semibold leading-6 text-gray-900">
             About Us
-          </a>
-          <a href="#" className="text-lg font-semibold leading-6 text-gray-900">
-            Reservation
           </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-lg font-semibold leading-6 text-gray-900">
+          <a href="mailto:email@example.com" className="text-lg font-semibold leading-6 text-gray-900">
             Contact <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
@@ -188,27 +185,21 @@ export default function Example() {
                   Home
                 </a>
                 <a
-                  href="menu"
+                  href="/menu"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Menu
                 </a>
                 <a
-                  href="#"
+                  href="/about"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   About Us
                 </a>
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Reservations
-                </a>
               </div>
               <div className="py-6">
                 <a
-                  href="#"
+                  href="mailto:email@example.com"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Contact

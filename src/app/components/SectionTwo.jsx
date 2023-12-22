@@ -25,12 +25,12 @@ const SectionTwo = () => {
           </article>
           <div className='flex w-full md:w-[50%] md:px-20'>
           <Image 
-              className='pr-2 w-[50%]'
+              className='pr-2 w-[50%] md:object-cover'
               src={slideTwo}
               alt='image slider'
             />
             <Image 
-              className='pl-2 w-[50%]'
+              className='pl-2 w-[50%] md:object-cover'
               src={slideOne}
               alt='image slider'
             />
@@ -40,12 +40,12 @@ const SectionTwo = () => {
         <div className='mt-16 md:flex mx-auto max-w-7xl'>
           <div className='flex w-full md:max-w-[50%] md:px-20'>
             <Image 
-              className='pr-2 max-w-[50%]'
+              className='pr-2 max-w-[50%] md:object-cover'
               src={slideThree}
               alt='image slider'
             />
             <Image 
-              className='pl-2 max-w-[50%]'
+              className='pl-2 max-w-[50%] md:object-cover'
               src={slideFour}
               alt='image slider'
             />

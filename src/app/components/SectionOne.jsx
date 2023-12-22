@@ -17,7 +17,7 @@ const SectionOne = () => {
         <p className='mb-1 text-xl text-white font-medium'>234TH AVENUE, NEW YORK</p>
         <p className='text-xl text-white font-medium'>TEL: +7 (111) 2474536</p>
         <div className="mt-10 px-4 py-4 uppercase font-medium text-black bg-white transition-all delay-100 hover:text-white hover:bg-[#c7a254] cursor-pointer">
-          <Link href="/">book a table</Link>
+          <Link href="mailto:email@example.com">book a table</Link>
         </div>
       </div>
     </section>

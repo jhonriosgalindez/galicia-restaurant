@@ -30,7 +30,7 @@ const SectionFive = () => {
           <h2 className='title'>private dining & events</h2>
           <p className='m-6 text-lg text-center font-light text-[#2e2e2e]'>There are four private spaces available for lunch, dinner or indeed at any other time like receptions, presentations or brainstorms. In addition the restaurant is available for breakfast & private hire as are all the other spaces.</p>
           <div className='flex justify-center text-center mt-10 '>
-            <Link href="/" className='px-4 py-4 uppercase font-medium text-white bg-black transition-all delay-100 hover:text-white hover:bg-[#c7a254] cursor-pointer'>view events</Link>
+            <Link href="https://api.whatsapp.com/send?phone=15551234567&text=I want to like know more about the menu" className='px-4 py-4 uppercase font-medium text-white bg-black transition-all delay-100 hover:text-white hover:bg-[#c7a254] cursor-pointer'>whatsapp</Link>
           </div>
         </article>
       </div>

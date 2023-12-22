@@ -207,7 +207,7 @@ const SectionThree = () => {
           </section>
 
           <div className='flex justify-center text-center mt-10 '>
-            <Link href="/" className='px-4 py-4 uppercase font-medium text-white bg-black transition-all delay-100 hover:text-white hover:bg-[#c7a254] cursor-pointer'>view all menu</Link>
+            <Link href="/menu" className='px-4 py-4 uppercase font-medium text-white bg-black transition-all delay-100 hover:text-white hover:bg-[#c7a254] cursor-pointer'>view all menu</Link>
           </div>
       </section>
     </>
